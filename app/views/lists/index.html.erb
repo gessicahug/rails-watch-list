@@ -1,0 +1,10 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://asicsulb.org/corporate/images/connect/beachfront/2019-01/movies-on-the-house.jpg);">
+  <div class="container">
+  </div>
+</div>
+    <h1>Movies List</h1>
+<ul>
+  <% @lists.each do |list| %>
+    <li><%= list.name %></li>
+  <% end %>
+</ul>
