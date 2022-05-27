@@ -1,3 +1,15 @@
 // Place all the styles related to the Lists controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.rating {
+  opacity: .7;
+}
+
+.comment {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.fa-star {
+  color: #ffc007
+}
